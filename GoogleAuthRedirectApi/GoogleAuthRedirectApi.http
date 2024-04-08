@@ -1,0 +1,4 @@
+@GoogleAuthRedirectApi_HostAddress = http://localhost:5150
+
+GET {{GoogleAuthRedirectApi_HostAddress}}/oauth2callback?code=your_auth_code&state=your_encoded_state
+Accept: application/json

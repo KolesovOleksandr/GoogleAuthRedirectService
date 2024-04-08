@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  redirectserver:
+    build:
+      context: .
+      dockerfile: GoogleAuthRedirectApi/Dockerfile
+    image: kolesov/authredirectapp:1.0
+    ports:
+      - "8080:80"
+    container_name: authredirectapp_container
