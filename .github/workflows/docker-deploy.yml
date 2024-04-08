@@ -44,7 +44,7 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           password: ${{ secrets.SERVER_PASSWORD }}
           port: 22
-          source: "./GoogleAuthRedirectApi/docker-compose.yaml"
+          source: "./docker-compose.yml"
           target: "/home/google-auth-redirect-app"
       
       - name: Pull Latest Image and Restart the Service
