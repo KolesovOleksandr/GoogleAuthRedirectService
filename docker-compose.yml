@@ -6,5 +6,5 @@ services:
       dockerfile: GoogleAuthRedirectApi/Dockerfile
     image: kolesovoleksandr/authredirectapp:1.0
     ports:
-      - "8080:80"
+      - "8081:80"
     container_name: authredirectapp_container
