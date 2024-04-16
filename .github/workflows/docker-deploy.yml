@@ -56,6 +56,6 @@ jobs:
           port: 22
           script: |
             docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
-            cd /home/oogle-auth-redirect-app
+            cd /home/google-auth-redirect-app
             docker-compose pull
             docker-compose up -d
