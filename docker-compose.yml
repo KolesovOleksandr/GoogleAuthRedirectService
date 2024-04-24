@@ -3,7 +3,7 @@ services:
   redirectserver:
     build:
       context: .
-      dockerfile: GoogleAuthRedirectApi/Dockerfile
+      dockerfile: GoogleAuthRedirectApi/Dockerfile6v14
     image: kolesovoleksandr/authredirectapp:1.0
     ports:
       - "8081:80"

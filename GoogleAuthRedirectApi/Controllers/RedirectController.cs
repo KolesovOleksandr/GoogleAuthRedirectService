@@ -23,6 +23,7 @@ public class RedirectController : Controller
     }
 
     [HttpGet]
+    //http://103.45.246.54:8081/Redirect/Index
     public async Task<IActionResult> Index(string code, string state, string error)
     {
         if (!string.IsNullOrEmpty(error)) 
